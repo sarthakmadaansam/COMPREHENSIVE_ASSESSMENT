@@ -1,0 +1,11 @@
+pageObjects\birthdayGiftscheck.class
+pageObjects\searchItems.class
+Utilities\driverClass.class
+pageObjects\whatsNewcheck.class
+pageObjects\loginPage.class
+pageObjects\whatsAppcheck.class
+pageObjects\wishlistAdd.class
+pageObjects\christmasGiftscheck.class
+pageObjects\cartAdd.class
+pageObjects\checkGiftCards.class
+Utilities\dataProvider.class

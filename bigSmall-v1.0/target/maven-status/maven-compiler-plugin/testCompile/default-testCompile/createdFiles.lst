@@ -1,0 +1,11 @@
+testCases\Tc007_wishList.class
+testCases\Tc008_addToCart.class
+testListeners\listeners.class
+testCases\Tc006_christmasGifts.class
+testCases\Tc002_Login_invalid.class
+testCases\Tc010_whatsappIcon.class
+testCases\Tc005_birthdayGifts.class
+testCases\Tc009_giftCards.class
+testCases\Tc001_Login_valid.class
+testCases\Tc004_whatsNew.class
+testCases\Tc003_searchBox.class

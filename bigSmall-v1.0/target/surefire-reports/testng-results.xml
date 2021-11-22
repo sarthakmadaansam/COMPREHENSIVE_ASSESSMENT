@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="382994" started-at="2021-11-19T05:04:45Z" finished-at="2021-11-19T05:11:08Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="68236" started-at="2021-11-19T05:04:45Z" finished-at="2021-11-19T05:05:54Z">
+      <class name="testCases.Tc008_addToCart">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc008_addToCart@72c8e7b]" name="goToURL" is-config="true" duration-ms="44095" started-at="2021-11-19T05:04:45Z" finished-at="2021-11-19T05:05:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:testCases.Tc008_addToCart@72c8e7b]" name="addToCart" duration-ms="16585" started-at="2021-11-19T05:05:29Z" finished-at="2021-11-19T05:05:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc008_addToCart@72c8e7b]" name="tearDown" is-config="true" duration-ms="6382" started-at="2021-11-19T05:05:47Z" finished-at="2021-11-19T05:05:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc008_addToCart -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="79325" started-at="2021-11-19T05:05:54Z" finished-at="2021-11-19T05:07:13Z">
+      <class name="testCases.Tc001_Login_valid">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc001_Login_valid@1a4927d6]" name="goToURL" is-config="true" duration-ms="14637" started-at="2021-11-19T05:05:54Z" finished-at="2021-11-19T05:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="FAIL" signature="clickOnLogin()[pri:0, instance:testCases.Tc001_Login_valid@1a4927d6]" name="clickOnLogin" duration-ms="52395" started-at="2021-11-19T05:06:09Z" finished-at="2021-11-19T05:07:01Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'My account')]"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'SARTHAK-PC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5c973b022d3ad4e9054e51b26cd751d, findElement {using=xpath, value=//h2[contains(text(),'My account')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\SHEERI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56978/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5c973b022d3ad4e9054e51b26cd751d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[contains(text(),'My account')]"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'SARTHAK-PC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5c973b022d3ad4e9054e51b26cd751d, findElement {using=xpath, value=//h2[contains(text(),'My account')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\SHEERI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56978/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5c973b022d3ad4e9054e51b26cd751d
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at pageObjects.loginPage.check_myAcc(loginPage.java:35)
+at testCases.Tc001_Login_valid.clickOnLogin(Tc001_Login_valid.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc001_Login_valid@1a4927d6]" name="tearDown" is-config="true" duration-ms="9516" started-at="2021-11-19T05:07:04Z" finished-at="2021-11-19T05:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc001_Login_valid -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="32559" started-at="2021-11-19T05:07:13Z" finished-at="2021-11-19T05:07:46Z">
+      <class name="testCases.Tc005_birthdayGifts">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc005_birthdayGifts@6b09fb41]" name="goToURL" is-config="true" duration-ms="18083" started-at="2021-11-19T05:07:13Z" finished-at="2021-11-19T05:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="clickOnbdayGifts()[pri:0, instance:testCases.Tc005_birthdayGifts@6b09fb41]" name="clickOnbdayGifts" duration-ms="8319" started-at="2021-11-19T05:07:31Z" finished-at="2021-11-19T05:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnbdayGifts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc005_birthdayGifts@6b09fb41]" name="tearDown" is-config="true" duration-ms="5003" started-at="2021-11-19T05:07:41Z" finished-at="2021-11-19T05:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc005_birthdayGifts -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="26228" started-at="2021-11-19T05:07:46Z" finished-at="2021-11-19T05:08:12Z">
+      <class name="testCases.Tc009_giftCards">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc009_giftCards@821330f]" name="goToURL" is-config="true" duration-ms="13912" started-at="2021-11-19T05:07:46Z" finished-at="2021-11-19T05:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="clickOnGift()[pri:0, instance:testCases.Tc009_giftCards@821330f]" name="clickOnGift" duration-ms="6621" started-at="2021-11-19T05:08:00Z" finished-at="2021-11-19T05:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGift -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc009_giftCards@821330f]" name="tearDown" is-config="true" duration-ms="4831" started-at="2021-11-19T05:08:07Z" finished-at="2021-11-19T05:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc009_giftCards -->
+    </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="30720" started-at="2021-11-19T05:08:12Z" finished-at="2021-11-19T05:08:43Z">
+      <class name="testCases.Tc002_Login_invalid">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc002_Login_invalid@1be2019a]" name="goToURL" is-config="true" duration-ms="17365" started-at="2021-11-19T05:08:12Z" finished-at="2021-11-19T05:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="clickOnLogin()[pri:0, instance:testCases.Tc002_Login_invalid@1be2019a]" name="clickOnLogin" duration-ms="7953" started-at="2021-11-19T05:08:30Z" finished-at="2021-11-19T05:08:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc002_Login_invalid@1be2019a]" name="tearDown" is-config="true" duration-ms="5117" started-at="2021-11-19T05:08:38Z" finished-at="2021-11-19T05:08:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc002_Login_invalid -->
+    </test> <!-- Test5 -->
+    <test name="Test6" duration-ms="23189" started-at="2021-11-19T05:08:43Z" finished-at="2021-11-19T05:09:06Z">
+      <class name="testCases.Tc010_whatsappIcon">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc010_whatsappIcon@47caedad]" name="goToURL" is-config="true" duration-ms="12871" started-at="2021-11-19T05:08:43Z" finished-at="2021-11-19T05:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="clickWhatsapp()[pri:0, instance:testCases.Tc010_whatsappIcon@47caedad]" name="clickWhatsapp" duration-ms="4659" started-at="2021-11-19T05:08:56Z" finished-at="2021-11-19T05:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickWhatsapp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc010_whatsappIcon@47caedad]" name="tearDown" is-config="true" duration-ms="5001" started-at="2021-11-19T05:09:01Z" finished-at="2021-11-19T05:09:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc010_whatsappIcon -->
+    </test> <!-- Test6 -->
+    <test name="Test7" duration-ms="28325" started-at="2021-11-19T05:09:06Z" finished-at="2021-11-19T05:09:35Z">
+      <class name="testCases.Tc003_searchBox">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc003_searchBox@126253fd]" name="goToURL" is-config="true" duration-ms="11314" started-at="2021-11-19T05:09:06Z" finished-at="2021-11-19T05:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="clickOnSearch()[pri:0, instance:testCases.Tc003_searchBox@126253fd]" name="clickOnSearch" duration-ms="11229" started-at="2021-11-19T05:09:17Z" finished-at="2021-11-19T05:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc003_searchBox@126253fd]" name="tearDown" is-config="true" duration-ms="4924" started-at="2021-11-19T05:09:30Z" finished-at="2021-11-19T05:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc003_searchBox -->
+    </test> <!-- Test7 -->
+    <test name="Test8" duration-ms="31907" started-at="2021-11-19T05:09:35Z" finished-at="2021-11-19T05:10:06Z">
+      <class name="testCases.Tc006_christmasGifts">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc006_christmasGifts@4dc27487]" name="goToURL" is-config="true" duration-ms="17110" started-at="2021-11-19T05:09:35Z" finished-at="2021-11-19T05:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="christmas()[pri:0, instance:testCases.Tc006_christmasGifts@4dc27487]" name="christmas" duration-ms="9065" started-at="2021-11-19T05:09:52Z" finished-at="2021-11-19T05:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- christmas -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc006_christmasGifts@4dc27487]" name="tearDown" is-config="true" duration-ms="4778" started-at="2021-11-19T05:10:02Z" finished-at="2021-11-19T05:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc006_christmasGifts -->
+    </test> <!-- Test8 -->
+    <test name="Test9" duration-ms="35119" started-at="2021-11-19T05:10:06Z" finished-at="2021-11-19T05:10:42Z">
+      <class name="testCases.Tc007_wishList">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc007_wishList@7dfb0c0f]" name="goToURL" is-config="true" duration-ms="13486" started-at="2021-11-19T05:10:06Z" finished-at="2021-11-19T05:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="addToWishlist()[pri:0, instance:testCases.Tc007_wishList@7dfb0c0f]" name="addToWishlist" duration-ms="14622" started-at="2021-11-19T05:10:20Z" finished-at="2021-11-19T05:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToWishlist -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc007_wishList@7dfb0c0f]" name="tearDown" is-config="true" duration-ms="6624" started-at="2021-11-19T05:10:35Z" finished-at="2021-11-19T05:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc007_wishList -->
+    </test> <!-- Test9 -->
+    <test name="Test10" duration-ms="26720" started-at="2021-11-19T05:10:42Z" finished-at="2021-11-19T05:11:08Z">
+      <class name="testCases.Tc004_whatsNew">
+        <test-method status="PASS" signature="goToURL()[pri:0, instance:testCases.Tc004_whatsNew@2d0399f4]" name="goToURL" is-config="true" duration-ms="16051" started-at="2021-11-19T05:10:42Z" finished-at="2021-11-19T05:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToURL -->
+        <test-method status="PASS" signature="whatsNewButton()[pri:0, instance:testCases.Tc004_whatsNew@2d0399f4]" name="whatsNewButton" duration-ms="4338" started-at="2021-11-19T05:10:58Z" finished-at="2021-11-19T05:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whatsNewButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Tc004_whatsNew@2d0399f4]" name="tearDown" is-config="true" duration-ms="5477" started-at="2021-11-19T05:11:03Z" finished-at="2021-11-19T05:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Tc004_whatsNew -->
+    </test> <!-- Test10 -->
+  </suite> <!-- Suite -->
+</testng-results>

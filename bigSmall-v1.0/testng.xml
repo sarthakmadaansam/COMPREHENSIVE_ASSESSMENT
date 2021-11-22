@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="testListeners.listeners"/>
+</listeners>
+  <test  name="Test1">
+    <classes>
+      <class name="testCases.Tc008_addToCart"/>
+      </classes>
+     </test> <!-- Test -->
+     <test name="Test2">
+     <classes> 
+      <class name="testCases.Tc001_Login_valid"/>
+     </classes>
+     </test>
+     <test name="Test3">
+     <classes>
+      <class name="testCases.Tc005_birthdayGifts"/>
+      </classes>
+      </test>
+      <test name="Test4">
+      <classes>
+      <class name="testCases.Tc009_giftCards"/>
+      </classes>
+      </test>
+      <test name= "Test5">
+      <classes>
+      <class name="testCases.Tc002_Login_invalid"/>
+      </classes>
+      </test>
+      <test name="Test6">
+      <classes>
+      <class name="testCases.Tc010_whatsappIcon"/>
+      </classes>
+      </test>
+      <test name="Test7">
+      <classes>
+      <class name="testCases.Tc003_searchBox"/>
+      </classes>
+      </test>
+      <test name="Test8">
+      <classes>
+      <class name="testCases.Tc006_christmasGifts"/>
+      </classes>
+      </test>
+      <test name="Test9">
+      <classes>
+      <class name="testCases.Tc007_wishList"/>
+      </classes>
+      </test>
+      <test name="Test10">
+      <classes>
+      <class name="testCases.Tc004_whatsNew"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
